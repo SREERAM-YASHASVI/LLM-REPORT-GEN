@@ -26,3 +26,7 @@ __pycache__/
 *$py.class
 venv/
 .env
+
+# Backend
+backend/uploads/
+backend/sample.txt
