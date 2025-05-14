@@ -1,0 +1,48 @@
+2025-04-29 10:25:37,940 - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 10:25:37,950 - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 10:25:37,951 - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 10:25:37,951 - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 10:25:37,952 - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 10:25:37,952 - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 10:25:37,952 - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 10:25:37,952 - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 10:25:37,952 - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 10:25:37,952 - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 10:25:37,953 - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 10:25:37,953 - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 10:25:37,953 - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 10:25:37,953 - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 10:25:37,953 - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 10:25:37,953 - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 10:25:37,966 - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 10:25:37,966 - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 10:25:37,966 - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 10:25:37,966 - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 10:25:37,967 - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 10:25:37,968 - agent_test.crew_performance - INFO - Agent configuration validation passed

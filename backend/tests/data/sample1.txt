@@ -1,0 +1,31 @@
+Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly categorized into three types:
+
+1. Supervised Learning:
+   - Used when data is labeled
+   - Examples: Classification, Regression
+   - Applications: Spam detection, Price prediction
+
+2. Unsupervised Learning:
+   - Used with unlabeled data
+   - Examples: Clustering, Dimensionality reduction
+   - Applications: Customer segmentation, Feature extraction
+
+3. Reinforcement Learning:
+   - Learning through interaction with environment
+   - Examples: Q-learning, Policy Gradient
+   - Applications: Game AI, Robotics
+
+Common evaluation metrics include:
+- Accuracy: Percentage of correct predictions
+- Precision: True positives / (True positives + False positives)
+- Recall: True positives / (True positives + False negatives)
+- F1 Score: Harmonic mean of precision and recall
+
+Best practices for implementation:
+1. Data preprocessing
+2. Feature selection
+3. Model validation
+4. Hyperparameter tuning
+5. Regular model updates

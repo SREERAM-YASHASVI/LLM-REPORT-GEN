@@ -1,0 +1,62 @@
+2025-04-29 12:02:36,974 - 73b499c5 - 0.05ms - 0.22ms - agent_test.crew_performance - INFO - Starting new test run with ID: 73b499c5
+2025-04-29 12:02:36,974 - 73b499c5 - 0.04ms - 0.54ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 12:02:36,983 - 73b499c5 - 0.04ms - 8.80ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 12:02:36,984 - 73b499c5 - 0.04ms - 0.11ms - agent_test.crew_performance - INFO - Starting new test run with ID: 90efb388
+2025-04-29 12:02:36,984 - 90efb388 - 0.02ms - 0.15ms - agent_test.crew_performance - INFO - Starting new test run with ID: 90efb388
+2025-04-29 12:02:36,984 - 73b499c5 - 0.03ms - 0.39ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:02:36,984 - 90efb388 - 0.03ms - 0.43ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:02:36,985 - 73b499c5 - 0.03ms - 0.96ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 12:02:36,985 - 90efb388 - 0.03ms - 0.99ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 12:02:36,985 - 73b499c5 - 0.02ms - 1.08ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 12:02:36,985 - 90efb388 - 0.01ms - 1.09ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 12:02:36,985 - 73b499c5 - 0.03ms - 1.16ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 12:02:36,985 - 90efb388 - 0.02ms - 1.19ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 12:02:36,986 - 73b499c5 - 0.03ms - 0.09ms - agent_test.crew_performance - INFO - Starting new test run with ID: 4f9e8299
+2025-04-29 12:02:36,986 - 90efb388 - 0.03ms - 0.13ms - agent_test.crew_performance - INFO - Starting new test run with ID: 4f9e8299
+2025-04-29 12:02:36,986 - 4f9e8299 - 0.02ms - 0.17ms - agent_test.crew_performance - INFO - Starting new test run with ID: 4f9e8299
+2025-04-29 12:02:36,986 - 73b499c5 - 0.04ms - 0.40ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 12:02:36,986 - 90efb388 - 0.03ms - 0.44ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 12:02:36,986 - 4f9e8299 - 0.02ms - 0.48ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 12:02:36,986 - 73b499c5 - 0.03ms - 0.59ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 12:02:36,986 - 90efb388 - 0.03ms - 0.63ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 12:02:36,986 - 4f9e8299 - 0.02ms - 0.67ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 12:02:36,995 - 73b499c5 - 0.05ms - 9.71ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 12:02:36,995 - 90efb388 - 0.03ms - 9.76ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 12:02:36,995 - 4f9e8299 - 0.03ms - 9.79ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 12:02:36,996 - 73b499c5 - 0.03ms - 9.91ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 12:02:36,996 - 90efb388 - 0.03ms - 9.95ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 12:02:36,996 - 4f9e8299 - 0.02ms - 9.98ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 12:04:36,563 - 73b499c5 - 0.18ms - 119578.42ms - agent_test.crew_performance - ERROR - Expected AssertionError but no exception was raised
+2025-04-29 12:04:36,563 - 90efb388 - 0.03ms - 119578.49ms - agent_test.crew_performance - ERROR - Expected AssertionError but no exception was raised
+2025-04-29 12:04:36,563 - 4f9e8299 - 0.03ms - 119578.54ms - agent_test.crew_performance - ERROR - Expected AssertionError but no exception was raised
+2025-04-29 12:04:36,566 - 73b499c5 - 0.08ms - 119580.67ms - agent_test.crew_performance - INFO - Empty query test passed - AssertionError raised as expected
+2025-04-29 12:04:36,566 - 90efb388 - 0.03ms - 119580.71ms - agent_test.crew_performance - INFO - Empty query test passed - AssertionError raised as expected
+2025-04-29 12:04:36,566 - 4f9e8299 - 0.02ms - 119580.74ms - agent_test.crew_performance - INFO - Empty query test passed - AssertionError raised as expected
+2025-04-29 12:04:36,573 - 73b499c5 - 0.05ms - 0.24ms - agent_test.crew_performance - INFO - Starting new test run with ID: 1a9df387
+2025-04-29 12:04:36,573 - 90efb388 - 0.03ms - 0.29ms - agent_test.crew_performance - INFO - Starting new test run with ID: 1a9df387
+2025-04-29 12:04:36,573 - 4f9e8299 - 0.04ms - 0.34ms - agent_test.crew_performance - INFO - Starting new test run with ID: 1a9df387
+2025-04-29 12:04:36,573 - 73b499c5 - 0.04ms - 0.62ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 12:04:36,573 - 90efb388 - 0.03ms - 0.67ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 12:04:36,573 - 4f9e8299 - 0.02ms - 0.71ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 12:04:36,575 - 73b499c5 - 0.06ms - 1.99ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 12:04:36,575 - 90efb388 - 0.05ms - 2.07ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 12:04:36,575 - 4f9e8299 - 0.04ms - 2.13ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 12:04:36,575 - 73b499c5 - 0.03ms - 2.36ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 12:04:36,575 - 90efb388 - 0.03ms - 2.40ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 12:04:36,575 - 4f9e8299 - 0.02ms - 2.44ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 12:04:36,575 - 73b499c5 - 0.03ms - 2.57ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 12:04:36,575 - 90efb388 - 0.03ms - 2.61ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 12:04:36,575 - 4f9e8299 - 0.02ms - 2.65ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 12:04:36,575 - 73b499c5 - 0.03ms - 2.78ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 12:04:36,575 - 90efb388 - 0.04ms - 2.84ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 12:04:36,575 - 4f9e8299 - 0.04ms - 2.91ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 12:04:36,576 - 73b499c5 - 0.03ms - 3.13ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 12:04:36,576 - 90efb388 - 0.03ms - 3.17ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 12:04:36,576 - 4f9e8299 - 0.02ms - 3.21ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 12:04:36,576 - 73b499c5 - 0.03ms - 3.33ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 12:04:36,576 - 90efb388 - 0.03ms - 3.38ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 12:04:36,576 - 4f9e8299 - 0.02ms - 3.42ms - agent_test.crew_performance - INFO - Agent configuration validation passed

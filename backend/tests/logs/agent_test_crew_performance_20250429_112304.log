@@ -1,0 +1,27 @@
+2025-04-29 11:23:04,952 - 23894493 - 0.15ms - 0.15ms - agent_test.crew_performance - INFO - Starting new test run with ID: 23894493
+2025-04-29 11:23:04,952 - 23894493 - 0.29ms - 0.47ms - agent_test.crew_performance - INFO - Processing query: What are the three types of machine learning algorithms?
+2025-04-29 11:23:04,952 - 23894493 - 0.06ms - 0.57ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:23:52,960 - 23894493 - 48007.93ms - 48008.51ms - agent_test.crew_performance - INFO - Generated response: Agent stopped due to iteration limit or time limit.
+2025-04-29 11:23:52,960 - 23894493 - 0.21ms - 48008.85ms - agent_test.crew_performance - INFO - Reference answer: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 11:23:52,960 - 23894493 - 0.12ms - 48009.01ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 11:23:52,994 - 23894493 - 0.15ms - 0.15ms - agent_test.crew_performance - INFO - Starting new test run with ID: 0a2c14bd
+2025-04-29 11:23:52,994 - 23894493 - 0.26ms - 0.53ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 11:23:53,003 - 23894493 - 8.19ms - 8.81ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 11:23:53,004 - 23894493 - 0.10ms - 0.10ms - agent_test.crew_performance - INFO - Starting new test run with ID: f4071be0
+2025-04-29 11:23:53,004 - 23894493 - 0.19ms - 0.43ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:23:53,005 - 23894493 - 0.38ms - 0.93ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 11:23:53,005 - 23894493 - 0.05ms - 1.12ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 11:23:53,005 - 23894493 - 0.03ms - 1.19ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 11:23:53,006 - 23894493 - 0.05ms - 0.05ms - agent_test.crew_performance - INFO - Starting new test run with ID: 3f5cc3d1
+2025-04-29 11:23:53,006 - 23894493 - 0.17ms - 0.37ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:23:53,006 - 23894493 - 0.04ms - 0.57ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:23:53,019 - 23894493 - 0.05ms - 0.05ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6594ae65
+2025-04-29 11:23:53,020 - 23894493 - 0.14ms - 0.38ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:23:53,021 - 23894493 - 0.71ms - 1.29ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:23:53,021 - 23894493 - 0.04ms - 1.52ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:23:53,021 - 23894493 - 0.03ms - 1.73ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:23:53,021 - 23894493 - 0.03ms - 1.94ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:23:53,021 - 23894493 - 0.03ms - 2.16ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:23:53,022 - 23894493 - 0.03ms - 2.37ms - agent_test.crew_performance - INFO - Agent configuration validation passed

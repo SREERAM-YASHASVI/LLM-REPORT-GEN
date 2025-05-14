@@ -1,0 +1,58 @@
+2025-04-29 15:41:57,521 - 80e0069a - 0.06ms - 0.25ms - agent_test.crew_performance - INFO - Starting new test run with ID: 80e0069a
+2025-04-29 15:41:57,522 - 80e0069a - 0.04ms - 0.66ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 15:41:57,531 - 80e0069a - 0.05ms - 9.64ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 15:41:57,532 - 80e0069a - 0.05ms - 0.16ms - agent_test.crew_performance - INFO - Starting new test run with ID: a42926fe
+2025-04-29 15:41:57,532 - a42926fe - 0.03ms - 0.21ms - agent_test.crew_performance - INFO - Starting new test run with ID: a42926fe
+2025-04-29 15:41:57,533 - 80e0069a - 0.05ms - 0.59ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 15:41:57,533 - a42926fe - 0.03ms - 0.64ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 15:41:57,533 - 80e0069a - 0.06ms - 1.31ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 15:41:57,533 - a42926fe - 0.03ms - 1.37ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 15:41:57,534 - 80e0069a - 0.02ms - 1.46ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 15:41:57,534 - a42926fe - 0.01ms - 1.48ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 15:41:57,534 - 80e0069a - 0.03ms - 1.54ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 15:41:57,534 - a42926fe - 0.02ms - 1.57ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 15:41:57,535 - 80e0069a - 0.05ms - 0.15ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6f530b2a
+2025-04-29 15:41:57,535 - a42926fe - 0.03ms - 0.20ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6f530b2a
+2025-04-29 15:41:57,535 - 6f530b2a - 0.03ms - 0.23ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6f530b2a
+2025-04-29 15:41:57,543 - 80e0069a - 0.06ms - 8.47ms - agent_test.crew_performance - INFO - Caught expected error for empty query: Failed to read any documents
+2025-04-29 15:41:57,543 - a42926fe - 0.03ms - 8.52ms - agent_test.crew_performance - INFO - Caught expected error for empty query: Failed to read any documents
+2025-04-29 15:41:57,543 - 6f530b2a - 0.03ms - 8.56ms - agent_test.crew_performance - INFO - Caught expected error for empty query: Failed to read any documents
+2025-04-29 15:41:57,551 - 80e0069a - 0.06ms - 16.30ms - agent_test.crew_performance - INFO - Caught expected error for non-existent file: Failed to read any documents
+2025-04-29 15:41:57,551 - a42926fe - 0.04ms - 16.36ms - agent_test.crew_performance - INFO - Caught expected error for non-existent file: Failed to read any documents
+2025-04-29 15:41:57,551 - 6f530b2a - 0.03ms - 16.41ms - agent_test.crew_performance - INFO - Caught expected error for non-existent file: Failed to read any documents
+2025-04-29 15:41:57,553 - 80e0069a - 0.05ms - 0.20ms - agent_test.crew_performance - INFO - Starting new test run with ID: 48d5b7d0
+2025-04-29 15:41:57,553 - a42926fe - 0.03ms - 0.25ms - agent_test.crew_performance - INFO - Starting new test run with ID: 48d5b7d0
+2025-04-29 15:41:57,553 - 6f530b2a - 0.03ms - 0.29ms - agent_test.crew_performance - INFO - Starting new test run with ID: 48d5b7d0
+2025-04-29 15:41:57,553 - 48d5b7d0 - 0.02ms - 0.32ms - agent_test.crew_performance - INFO - Starting new test run with ID: 48d5b7d0
+2025-04-29 15:41:57,553 - 80e0069a - 0.04ms - 0.61ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 15:41:57,553 - a42926fe - 0.03ms - 0.66ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 15:41:57,553 - 6f530b2a - 0.02ms - 0.69ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 15:41:57,553 - 48d5b7d0 - 0.02ms - 0.72ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 15:41:57,554 - 80e0069a - 0.03ms - 1.53ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 15:41:57,554 - a42926fe - 0.03ms - 1.57ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 15:41:57,554 - 6f530b2a - 0.02ms - 1.60ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 15:41:57,554 - 48d5b7d0 - 0.02ms - 1.63ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 15:41:57,554 - 80e0069a - 0.03ms - 1.74ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 15:41:57,554 - a42926fe - 0.03ms - 1.78ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 15:41:57,554 - 6f530b2a - 0.17ms - 1.96ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 15:41:57,554 - 48d5b7d0 - 0.06ms - 2.07ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 15:41:57,555 - 80e0069a - 0.11ms - 2.43ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 15:41:57,555 - a42926fe - 0.06ms - 2.56ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 15:41:57,555 - 6f530b2a - 0.04ms - 2.62ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 15:41:57,555 - 48d5b7d0 - 0.03ms - 2.66ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 15:41:57,556 - 80e0069a - 0.04ms - 2.84ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 15:41:57,556 - a42926fe - 0.03ms - 2.89ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 15:41:57,556 - 6f530b2a - 0.03ms - 2.94ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 15:41:57,556 - 48d5b7d0 - 0.03ms - 2.98ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 15:41:57,556 - 80e0069a - 0.04ms - 3.11ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 15:41:57,556 - a42926fe - 0.03ms - 3.16ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 15:41:57,556 - 6f530b2a - 0.03ms - 3.21ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 15:41:57,556 - 48d5b7d0 - 0.03ms - 3.25ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 15:41:57,556 - 80e0069a - 0.03ms - 3.38ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 15:41:57,556 - a42926fe - 0.03ms - 3.43ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 15:41:57,556 - 6f530b2a - 0.03ms - 3.48ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 15:41:57,556 - 48d5b7d0 - 0.03ms - 3.52ms - agent_test.crew_performance - INFO - Agent configuration validation passed

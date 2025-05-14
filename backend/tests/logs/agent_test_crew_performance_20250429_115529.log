@@ -1,0 +1,65 @@
+2025-04-29 11:55:29,385 - c9ed6cd5 - 0.09ms - 0.37ms - agent_test.crew_performance - INFO - Starting new test run with ID: c9ed6cd5
+2025-04-29 11:55:29,386 - c9ed6cd5 - 0.07ms - 0.98ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 11:55:29,394 - c9ed6cd5 - 0.04ms - 8.89ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 11:55:29,395 - c9ed6cd5 - 0.05ms - 0.15ms - agent_test.crew_performance - INFO - Starting new test run with ID: cce9e273
+2025-04-29 11:55:29,395 - cce9e273 - 0.03ms - 0.19ms - agent_test.crew_performance - INFO - Starting new test run with ID: cce9e273
+2025-04-29 11:55:29,395 - c9ed6cd5 - 0.03ms - 0.49ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:55:29,395 - cce9e273 - 0.03ms - 0.53ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:55:29,396 - c9ed6cd5 - 0.05ms - 1.06ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 11:55:29,396 - cce9e273 - 0.04ms - 1.12ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 11:55:29,396 - c9ed6cd5 - 0.03ms - 1.25ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 11:55:29,396 - cce9e273 - 0.02ms - 1.27ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 11:55:29,396 - c9ed6cd5 - 0.05ms - 1.38ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 11:55:29,396 - cce9e273 - 0.04ms - 1.44ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 11:55:29,398 - c9ed6cd5 - 0.05ms - 0.15ms - agent_test.crew_performance - INFO - Starting new test run with ID: 61f18d98
+2025-04-29 11:55:29,398 - cce9e273 - 0.04ms - 0.22ms - agent_test.crew_performance - INFO - Starting new test run with ID: 61f18d98
+2025-04-29 11:55:29,398 - 61f18d98 - 0.03ms - 0.27ms - agent_test.crew_performance - INFO - Starting new test run with ID: 61f18d98
+2025-04-29 11:55:29,398 - c9ed6cd5 - 0.03ms - 0.50ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:55:29,398 - cce9e273 - 0.03ms - 0.55ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:55:29,398 - 61f18d98 - 0.03ms - 0.58ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:55:29,398 - c9ed6cd5 - 0.03ms - 0.69ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:55:29,398 - cce9e273 - 0.02ms - 0.72ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:55:29,398 - 61f18d98 - 0.02ms - 0.76ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:55:29,409 - c9ed6cd5 - 0.06ms - 10.97ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 11:55:29,409 - cce9e273 - 0.04ms - 11.04ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 11:55:29,409 - 61f18d98 - 0.03ms - 11.09ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 11:55:29,409 - c9ed6cd5 - 0.05ms - 11.25ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 11:55:29,409 - cce9e273 - 0.04ms - 11.31ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 11:55:29,409 - 61f18d98 - 0.03ms - 11.38ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 11:56:31,442 - c9ed6cd5 - 0.37ms - 62044.67ms - agent_test.crew_performance - ERROR - Expected ValueError but no exception was raised
+2025-04-29 11:56:31,442 - cce9e273 - 0.08ms - 62044.81ms - agent_test.crew_performance - ERROR - Expected ValueError but no exception was raised
+2025-04-29 11:56:31,442 - 61f18d98 - 0.06ms - 62044.90ms - agent_test.crew_performance - ERROR - Expected ValueError but no exception was raised
+2025-04-29 11:56:31,445 - c9ed6cd5 - 0.07ms - 62047.28ms - agent_test.crew_performance - WARNING - Expected ValueError but got different exception: AssertionError: Expected ValueError but no exception was raised
+assert False
+2025-04-29 11:56:31,445 - cce9e273 - 0.06ms - 62047.37ms - agent_test.crew_performance - WARNING - Expected ValueError but got different exception: AssertionError: Expected ValueError but no exception was raised
+assert False
+2025-04-29 11:56:31,445 - 61f18d98 - 0.05ms - 62047.45ms - agent_test.crew_performance - WARNING - Expected ValueError but got different exception: AssertionError: Expected ValueError but no exception was raised
+assert False
+2025-04-29 11:56:31,454 - c9ed6cd5 - 0.07ms - 0.30ms - agent_test.crew_performance - INFO - Starting new test run with ID: ac793db3
+2025-04-29 11:56:31,454 - cce9e273 - 0.05ms - 0.38ms - agent_test.crew_performance - INFO - Starting new test run with ID: ac793db3
+2025-04-29 11:56:31,454 - 61f18d98 - 0.04ms - 0.44ms - agent_test.crew_performance - INFO - Starting new test run with ID: ac793db3
+2025-04-29 11:56:31,455 - c9ed6cd5 - 0.07ms - 0.93ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:56:31,455 - cce9e273 - 0.04ms - 1.00ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:56:31,455 - 61f18d98 - 0.04ms - 1.06ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:56:31,456 - c9ed6cd5 - 0.06ms - 2.38ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:56:31,456 - cce9e273 - 0.05ms - 2.46ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:56:31,456 - 61f18d98 - 0.04ms - 2.52ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:56:31,457 - c9ed6cd5 - 0.05ms - 2.75ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:56:31,457 - cce9e273 - 0.04ms - 2.82ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:56:31,457 - 61f18d98 - 0.04ms - 2.88ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:56:31,457 - c9ed6cd5 - 0.05ms - 3.10ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:56:31,457 - cce9e273 - 0.04ms - 3.17ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:56:31,457 - 61f18d98 - 0.04ms - 3.23ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:56:31,457 - c9ed6cd5 - 0.05ms - 3.45ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:56:31,457 - cce9e273 - 0.04ms - 3.51ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:56:31,457 - 61f18d98 - 0.04ms - 3.57ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:56:31,458 - c9ed6cd5 - 0.05ms - 3.80ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:56:31,458 - cce9e273 - 0.04ms - 3.87ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:56:31,458 - 61f18d98 - 0.04ms - 3.93ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:56:31,458 - c9ed6cd5 - 0.05ms - 4.17ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 11:56:31,458 - cce9e273 - 0.04ms - 4.23ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 11:56:31,458 - 61f18d98 - 0.04ms - 4.29ms - agent_test.crew_performance - INFO - Agent configuration validation passed

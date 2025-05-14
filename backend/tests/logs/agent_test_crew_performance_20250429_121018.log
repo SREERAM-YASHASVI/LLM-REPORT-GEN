@@ -1,0 +1,8 @@
+2025-04-29 12:10:18,787 - bcb95092 - 0.04ms - 0.55ms - agent_test.crew_performance - INFO - Starting new test run with ID: bcb95092
+2025-04-29 12:10:18,787 - bcb95092 - 0.04ms - 1.22ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 12:10:18,789 - bcb95092 - 0.04ms - 2.69ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 12:10:18,789 - bcb95092 - 0.04ms - 3.10ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 12:10:18,790 - bcb95092 - 0.04ms - 3.50ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 12:10:18,790 - bcb95092 - 0.04ms - 3.93ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 12:10:18,791 - bcb95092 - 0.04ms - 4.50ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 12:10:18,791 - bcb95092 - 0.04ms - 5.02ms - agent_test.crew_performance - INFO - Agent configuration validation passed

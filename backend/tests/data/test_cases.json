@@ -1,0 +1,21 @@
+{
+    "sample1.txt": {
+        "queries": [
+            {
+                "question": "What are the three types of machine learning algorithms?",
+                "reference_answer": "The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.",
+                "key_points": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning"]
+            },
+            {
+                "question": "What are the common evaluation metrics mentioned in the document?",
+                "reference_answer": "The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).",
+                "key_points": ["Accuracy", "Precision", "Recall", "F1 Score"]
+            },
+            {
+                "question": "What are the best practices for implementation?",
+                "reference_answer": "The best practices for implementation are: 1. Data preprocessing 2. Feature selection 3. Model validation 4. Hyperparameter tuning 5. Regular model updates",
+                "key_points": ["Data preprocessing", "Feature selection", "Model validation", "Hyperparameter tuning", "Regular model updates"]
+            }
+        ]
+    }
+}

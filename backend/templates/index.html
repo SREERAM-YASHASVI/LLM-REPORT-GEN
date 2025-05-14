@@ -1,0 +1,26 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document Query App</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Document Query App</h1>
+            <div class="input-section">
+                <textarea id="question" placeholder="Enter your question here"></textarea>
+                <input type="text" id="doc-path" placeholder="Enter document path (optional)">
+                <button onclick="submitQuery()">Submit Query</button>
+            </div>
+            <div class="response-section">
+                <h2>Response:</h2>
+                <pre id="response">...</pre>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+    </html>
+    

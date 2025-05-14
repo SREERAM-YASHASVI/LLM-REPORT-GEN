@@ -1,0 +1,32 @@
+2025-04-29 15:39:26,604 - 6b52227b - 0.23ms - 0.23ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6b52227b
+2025-04-29 15:39:26,604 - 6b52227b - 0.47ms - 0.74ms - agent_test.crew_performance - INFO - Processing query: What are the three types of machine learning algorithms?
+2025-04-29 15:39:26,604 - 6b52227b - 0.07ms - 0.84ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 15:40:45,561 - 6b52227b - 78956.73ms - 78957.58ms - agent_test.crew_performance - INFO - Generated response: Agent stopped due to iteration limit or time limit.
+2025-04-29 15:40:45,562 - 6b52227b - 0.44ms - 78958.13ms - agent_test.crew_performance - INFO - Reference answer: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 15:40:45,562 - 6b52227b - 0.10ms - 78958.26ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 15:40:45,636 - 6b52227b - 74.73ms - 79032.99ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f': 0.0, 'rouge2_f': 0.0, 'rougeL_f': 0.0, 'bleu': 0.009483240843460443, 'key_points_hit_rate': 0.0}
+2025-04-29 15:40:45,637 - 6b52227b - 0.40ms - 79033.38ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f': 0.0, 'rouge2_f': 0.0, 'rougeL_f': 0.0, 'bleu': 0.009483240843460443, 'key_points_hit_rate': 0.0}
+2025-04-29 15:40:45,637 - 6b52227b - 0.19ms - 79033.60ms - agent_test.crew_performance - ERROR - Response quality below thresholds:
+Question: What are the three types of machine learning algorithms?
+Generated: Agent stopped due to iteration limit or time limit.
+Reference: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+Metrics: {'rouge1_f': 0.0, 'rouge2_f': 0.0, 'rougeL_f': 0.0, 'bleu': 0.009483240843460443, 'key_points_hit_rate': 0.0}
+2025-04-29 15:40:45,642 - 6b52227b - 0.12ms - 0.12ms - agent_test.crew_performance - INFO - Starting new test run with ID: b1944acf
+2025-04-29 15:40:45,642 - 6b52227b - 0.20ms - 0.41ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 15:40:45,651 - 6b52227b - 8.56ms - 9.03ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 15:40:45,652 - 6b52227b - 0.05ms - 0.05ms - agent_test.crew_performance - INFO - Starting new test run with ID: 463271f4
+2025-04-29 15:40:45,652 - 6b52227b - 0.19ms - 0.36ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 15:40:45,653 - 6b52227b - 0.30ms - 0.77ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 15:40:45,653 - 6b52227b - 0.06ms - 0.95ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 15:40:45,653 - 6b52227b - 0.02ms - 1.01ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 15:40:45,654 - 6b52227b - 0.04ms - 0.04ms - agent_test.crew_performance - INFO - Starting new test run with ID: 5896b88a
+2025-04-29 15:40:45,668 - 6b52227b - 0.04ms - 0.04ms - agent_test.crew_performance - INFO - Starting new test run with ID: 7cf78202
+2025-04-29 15:40:45,668 - 6b52227b - 0.13ms - 0.36ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 15:40:45,669 - 6b52227b - 0.79ms - 1.32ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 15:40:45,669 - 6b52227b - 0.05ms - 1.55ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 15:40:45,669 - 6b52227b - 0.04ms - 1.75ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 15:40:45,670 - 6b52227b - 0.04ms - 1.95ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 15:40:45,670 - 6b52227b - 0.04ms - 2.15ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 15:40:45,670 - 6b52227b - 0.04ms - 2.35ms - agent_test.crew_performance - INFO - Agent configuration validation passed

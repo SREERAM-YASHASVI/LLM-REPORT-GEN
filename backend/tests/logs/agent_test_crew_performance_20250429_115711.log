@@ -1,0 +1,38 @@
+2025-04-29 11:57:11,035 - 27ce8d55 - 0.12ms - 0.12ms - agent_test.crew_performance - INFO - Starting new test run with ID: 27ce8d55
+2025-04-29 11:57:11,036 - 27ce8d55 - 0.62ms - 0.77ms - agent_test.crew_performance - INFO - Processing query: What are the three types of machine learning algorithms?
+2025-04-29 11:57:11,036 - 27ce8d55 - 0.08ms - 0.88ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:02:36,957 - 27ce8d55 - 325921.17ms - 325922.07ms - agent_test.crew_performance - INFO - Generated response: Agent stopped due to iteration limit or time limit.
+2025-04-29 12:02:36,958 - 27ce8d55 - 0.33ms - 325923.21ms - agent_test.crew_performance - INFO - Reference answer: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 12:02:36,958 - 27ce8d55 - 0.08ms - 325923.32ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 12:02:36,968 - 27ce8d55 - 9.45ms - 325932.77ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0.009483240843460443, 'key_point_coverage': 0.0}
+2025-04-29 12:02:36,968 - 27ce8d55 - 0.12ms - 325932.88ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0.009483240843460443, 'key_point_coverage': 0.0}
+2025-04-29 12:02:36,968 - 27ce8d55 - 0.10ms - 325933.01ms - agent_test.crew_performance - ERROR - Response quality below thresholds:
+Question: What are the three types of machine learning algorithms?
+Generated: Agent stopped due to iteration limit or time limit.
+Reference: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+Metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0.009483240843460443, 'key_point_coverage': 0.0}
+2025-04-29 12:02:36,974 - 27ce8d55 - 0.14ms - 0.14ms - agent_test.crew_performance - INFO - Starting new test run with ID: 73b499c5
+2025-04-29 12:02:36,974 - 27ce8d55 - 0.23ms - 0.48ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 12:02:36,983 - 27ce8d55 - 8.18ms - 8.73ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 12:02:36,984 - 27ce8d55 - 0.05ms - 0.05ms - agent_test.crew_performance - INFO - Starting new test run with ID: 90efb388
+2025-04-29 12:02:36,984 - 27ce8d55 - 0.18ms - 0.34ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:02:36,985 - 27ce8d55 - 0.46ms - 0.91ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 12:02:36,985 - 27ce8d55 - 0.05ms - 1.06ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 12:02:36,985 - 27ce8d55 - 0.03ms - 1.11ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 12:02:36,986 - 27ce8d55 - 0.04ms - 0.04ms - agent_test.crew_performance - INFO - Starting new test run with ID: 4f9e8299
+2025-04-29 12:02:36,986 - 27ce8d55 - 0.16ms - 0.33ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 12:02:36,986 - 27ce8d55 - 0.05ms - 0.54ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 12:02:36,995 - 27ce8d55 - 8.94ms - 9.62ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 12:02:36,996 - 27ce8d55 - 0.05ms - 9.85ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 12:04:36,563 - 27ce8d55 - 119567.45ms - 119577.45ms - agent_test.crew_performance - ERROR - Expected AssertionError but no exception was raised
+2025-04-29 12:04:36,566 - 27ce8d55 - 1.98ms - 119580.52ms - agent_test.crew_performance - INFO - Empty query test passed - AssertionError raised as expected
+2025-04-29 12:04:36,573 - 27ce8d55 - 0.16ms - 0.16ms - agent_test.crew_performance - INFO - Starting new test run with ID: 1a9df387
+2025-04-29 12:04:36,573 - 27ce8d55 - 0.17ms - 0.56ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 12:04:36,575 - 27ce8d55 - 1.13ms - 1.88ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 12:04:36,575 - 27ce8d55 - 0.10ms - 2.31ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 12:04:36,575 - 27ce8d55 - 0.04ms - 2.52ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 12:04:36,575 - 27ce8d55 - 0.04ms - 2.74ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 12:04:36,576 - 27ce8d55 - 0.08ms - 3.06ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 12:04:36,576 - 27ce8d55 - 0.04ms - 3.29ms - agent_test.crew_performance - INFO - Agent configuration validation passed

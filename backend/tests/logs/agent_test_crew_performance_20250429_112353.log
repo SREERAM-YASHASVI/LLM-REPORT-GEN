@@ -1,0 +1,37 @@
+2025-04-29 11:23:53,004 - f4071be0 - 0.03ms - 0.21ms - agent_test.crew_performance - INFO - Starting new test run with ID: f4071be0
+2025-04-29 11:23:53,004 - f4071be0 - 0.03ms - 0.54ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:23:53,005 - f4071be0 - 0.03ms - 1.06ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 11:23:53,005 - f4071be0 - 0.01ms - 1.16ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 11:23:53,005 - f4071be0 - 0.03ms - 1.28ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 11:23:53,006 - f4071be0 - 0.03ms - 0.16ms - agent_test.crew_performance - INFO - Starting new test run with ID: 3f5cc3d1
+2025-04-29 11:23:53,006 - 3f5cc3d1 - 0.02ms - 0.20ms - agent_test.crew_performance - INFO - Starting new test run with ID: 3f5cc3d1
+2025-04-29 11:23:53,006 - f4071be0 - 0.03ms - 0.48ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:23:53,006 - 3f5cc3d1 - 0.03ms - 0.52ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:23:53,006 - f4071be0 - 0.03ms - 0.66ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:23:53,006 - 3f5cc3d1 - 0.03ms - 0.70ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:23:53,019 - f4071be0 - 0.03ms - 0.17ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6594ae65
+2025-04-29 11:23:53,019 - 3f5cc3d1 - 0.02ms - 0.21ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6594ae65
+2025-04-29 11:23:53,019 - 6594ae65 - 0.03ms - 0.24ms - agent_test.crew_performance - INFO - Starting new test run with ID: 6594ae65
+2025-04-29 11:23:53,020 - f4071be0 - 0.03ms - 0.49ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:23:53,020 - 3f5cc3d1 - 0.03ms - 0.54ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:23:53,020 - 6594ae65 - 0.02ms - 0.57ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:23:53,021 - f4071be0 - 0.03ms - 1.40ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:23:53,021 - 3f5cc3d1 - 0.03ms - 1.44ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:23:53,021 - 6594ae65 - 0.02ms - 1.48ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:23:53,021 - f4071be0 - 0.03ms - 1.62ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:23:53,021 - 3f5cc3d1 - 0.03ms - 1.66ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:23:53,021 - 6594ae65 - 0.02ms - 1.69ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:23:53,021 - f4071be0 - 0.03ms - 1.83ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:23:53,021 - 3f5cc3d1 - 0.03ms - 1.87ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:23:53,021 - 6594ae65 - 0.02ms - 1.90ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:23:53,021 - f4071be0 - 0.03ms - 2.03ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:23:53,021 - 3f5cc3d1 - 0.03ms - 2.07ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:23:53,021 - 6594ae65 - 0.02ms - 2.11ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:23:53,021 - f4071be0 - 0.03ms - 2.25ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:23:53,021 - 3f5cc3d1 - 0.03ms - 2.29ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:23:53,021 - 6594ae65 - 0.02ms - 2.32ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:23:53,022 - f4071be0 - 0.03ms - 2.46ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 11:23:53,022 - 3f5cc3d1 - 0.02ms - 2.50ms - agent_test.crew_performance - INFO - Agent configuration validation passed
+2025-04-29 11:23:53,022 - 6594ae65 - 0.02ms - 2.53ms - agent_test.crew_performance - INFO - Agent configuration validation passed

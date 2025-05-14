@@ -1,0 +1,60 @@
+2025-04-29 14:40:18,013 - 888ff164 - 0.22ms - 0.22ms - agent_test.crew_performance - INFO - Starting new test run with ID: 888ff164
+2025-04-29 14:40:18,014 - 888ff164 - 0.44ms - 0.70ms - agent_test.crew_performance - INFO - Processing query: What are the three types of machine learning algorithms?
+2025-04-29 14:40:18,014 - 888ff164 - 0.07ms - 0.80ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 14:43:06,058 - 888ff164 - 168044.41ms - 168045.22ms - agent_test.crew_performance - INFO - Generated response: The three types are [Supervised Learning], [Unsupervised Learning], and [Reinforcement Learning].
+```
+2025-04-29 14:43:06,059 - 888ff164 - 0.20ms - 168045.53ms - agent_test.crew_performance - INFO - Reference answer: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 14:43:06,059 - 888ff164 - 0.12ms - 168045.69ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 14:43:06,073 - 888ff164 - 13.95ms - 168059.64ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.846153846153846, 'rouge2_f1': 0.75, 'rougeL_f1': 0.846153846153846, 'bleu': 0.08316937320108132, 'key_point_coverage': 1.0}
+2025-04-29 14:43:06,073 - 888ff164 - 0.09ms - 168059.73ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.846153846153846, 'rouge2_f1': 0.75, 'rougeL_f1': 0.846153846153846, 'bleu': 0.08316937320108132, 'key_point_coverage': 1.0}
+2025-04-29 14:43:06,073 - 888ff164 - 0.11ms - 168059.86ms - agent_test.crew_performance - INFO - Processing query: What are the common evaluation metrics mentioned in the document?
+2025-04-29 14:43:06,073 - 888ff164 - 0.08ms - 168059.96ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 14:43:29,496 - 888ff164 - 23423.11ms - 191483.09ms - agent_test.crew_performance - INFO - Generated response: Since there are no documents provided, I cannot analyze the evaluation metrics mentioned in the document.
+2025-04-29 14:43:29,496 - 888ff164 - 0.21ms - 191483.38ms - agent_test.crew_performance - INFO - Reference answer: The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).
+2025-04-29 14:43:29,497 - 888ff164 - 0.13ms - 191483.55ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 14:43:29,498 - 888ff164 - 1.21ms - 191484.76ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.2, 'rouge2_f1': 0.08333333333333333, 'rougeL_f1': 0.15999999999999998, 'bleu': 0.009871135319546134, 'key_point_coverage': 0.0}
+2025-04-29 14:43:29,498 - 888ff164 - 0.08ms - 191484.84ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.2, 'rouge2_f1': 0.08333333333333333, 'rougeL_f1': 0.15999999999999998, 'bleu': 0.009871135319546134, 'key_point_coverage': 0.0}
+2025-04-29 14:43:29,498 - 888ff164 - 0.12ms - 191484.98ms - agent_test.crew_performance - WARNING - Response quality below thresholds but continuing test run
+2025-04-29 14:43:29,498 - 888ff164 - 0.10ms - 191485.11ms - agent_test.crew_performance - WARNING - Question: What are the common evaluation metrics mentioned in the document?
+2025-04-29 14:43:29,498 - 888ff164 - 0.09ms - 191485.22ms - agent_test.crew_performance - WARNING - Generated: Since there are no documents provided, I cannot analyze the evaluation metrics mentioned in the document.
+2025-04-29 14:43:29,498 - 888ff164 - 0.09ms - 191485.34ms - agent_test.crew_performance - WARNING - Reference: The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).
+2025-04-29 14:43:29,499 - 888ff164 - 0.10ms - 191485.47ms - agent_test.crew_performance - WARNING - Metrics: {'rouge1_f1': 0.2, 'rouge2_f1': 0.08333333333333333, 'rougeL_f1': 0.15999999999999998, 'bleu': 0.009871135319546134, 'key_point_coverage': 0.0}
+2025-04-29 14:43:29,499 - 888ff164 - 0.09ms - 191485.58ms - agent_test.crew_performance - INFO - Processing query: What are the best practices for implementation?
+2025-04-29 14:43:29,499 - 888ff164 - 0.09ms - 191485.69ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 14:45:47,200 - 888ff164 - 137700.95ms - 329186.66ms - agent_test.crew_performance - INFO - Generated response: Agent stopped due to iteration limit or time limit.
+2025-04-29 14:45:47,201 - 888ff164 - 1.00ms - 329187.74ms - agent_test.crew_performance - INFO - Reference answer: The best practices for implementation are: 1. Data preprocessing 2. Feature selection 3. Model validation 4. Hyperparameter tuning 5. Regular model updates
+2025-04-29 14:45:47,201 - 888ff164 - 0.13ms - 329187.92ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 14:45:47,202 - 888ff164 - 0.81ms - 329188.72ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0, 'key_point_coverage': 0.0}
+2025-04-29 14:45:47,202 - 888ff164 - 0.07ms - 329188.80ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0, 'key_point_coverage': 0.0}
+2025-04-29 14:45:47,202 - 888ff164 - 0.11ms - 329188.94ms - agent_test.crew_performance - WARNING - Response quality below thresholds but continuing test run
+2025-04-29 14:45:47,202 - 888ff164 - 0.10ms - 329189.06ms - agent_test.crew_performance - WARNING - Question: What are the best practices for implementation?
+2025-04-29 14:45:47,202 - 888ff164 - 0.09ms - 329189.17ms - agent_test.crew_performance - WARNING - Generated: Agent stopped due to iteration limit or time limit.
+2025-04-29 14:45:47,202 - 888ff164 - 0.09ms - 329189.28ms - agent_test.crew_performance - WARNING - Reference: The best practices for implementation are: 1. Data preprocessing 2. Feature selection 3. Model validation 4. Hyperparameter tuning 5. Regular model updates
+2025-04-29 14:45:47,202 - 888ff164 - 0.09ms - 329189.39ms - agent_test.crew_performance - WARNING - Metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0, 'key_point_coverage': 0.0}
+2025-04-29 14:45:47,203 - 888ff164 - 0.10ms - 329189.51ms - agent_test.crew_performance - INFO - Validating log phases
+2025-04-29 14:45:47,203 - 888ff164 - 0.16ms - 329189.69ms - agent_test.crew_performance - WARNING - Total run time exceeded threshold: 329188.82ms > 10000ms
+2025-04-29 14:45:47,206 - 888ff164 - 0.32ms - 0.32ms - agent_test.crew_performance - INFO - Starting new test run with ID: 0b2c3e08
+2025-04-29 14:45:47,207 - 888ff164 - 0.34ms - 0.80ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 14:45:47,218 - 888ff164 - 11.02ms - 11.93ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 14:45:47,220 - 888ff164 - 0.07ms - 0.07ms - agent_test.crew_performance - INFO - Starting new test run with ID: 5bddbeab
+2025-04-29 14:45:47,220 - 888ff164 - 0.21ms - 0.42ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 14:45:47,221 - 888ff164 - 0.51ms - 1.02ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 14:45:47,221 - 888ff164 - 0.04ms - 1.15ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 14:45:47,221 - 888ff164 - 0.02ms - 1.20ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 14:45:47,222 - 888ff164 - 0.05ms - 0.05ms - agent_test.crew_performance - INFO - Starting new test run with ID: 304e8647
+2025-04-29 14:45:47,222 - 888ff164 - 0.21ms - 0.44ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 14:45:47,222 - 888ff164 - 0.07ms - 0.71ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 14:45:47,233 - 888ff164 - 9.93ms - 10.82ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 14:45:47,233 - 888ff164 - 0.06ms - 11.08ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 14:46:05,978 - 888ff164 - 18745.05ms - 18756.28ms - agent_test.crew_performance - ERROR - Expected AssertionError but no exception was raised
+2025-04-29 14:46:05,981 - 888ff164 - 2.48ms - 18759.16ms - agent_test.crew_performance - INFO - Empty query test passed - AssertionError raised as expected
+2025-04-29 14:46:05,983 - 888ff164 - 0.19ms - 0.19ms - agent_test.crew_performance - INFO - Starting new test run with ID: ef899e0e
+2025-04-29 14:46:05,984 - 888ff164 - 0.29ms - 0.88ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 14:46:05,985 - 888ff164 - 1.07ms - 2.30ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 14:46:05,986 - 888ff164 - 0.09ms - 2.72ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 14:46:05,986 - 888ff164 - 0.08ms - 3.11ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 14:46:05,987 - 888ff164 - 0.08ms - 3.50ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 14:46:05,987 - 888ff164 - 0.07ms - 3.87ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 14:46:05,987 - 888ff164 - 0.08ms - 4.26ms - agent_test.crew_performance - INFO - Agent configuration validation passed

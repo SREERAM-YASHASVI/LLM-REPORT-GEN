@@ -1,0 +1,45 @@
+2025-04-29 11:34:35,455 - 4d3ca062 - 0.13ms - 0.13ms - agent_test.crew_performance - INFO - Starting new test run with ID: 4d3ca062
+2025-04-29 11:34:35,455 - 4d3ca062 - 0.47ms - 0.65ms - agent_test.crew_performance - INFO - Processing query: What are the three types of machine learning algorithms?
+2025-04-29 11:34:35,455 - 4d3ca062 - 0.08ms - 0.75ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:35:24,127 - 4d3ca062 - 48671.50ms - 48672.27ms - agent_test.crew_performance - INFO - Generated response: Supervised Learning, Unsupervised Learning, Reinforcement Learning
+2025-04-29 11:35:24,127 - 4d3ca062 - 0.31ms - 48672.70ms - agent_test.crew_performance - INFO - Reference answer: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 11:35:24,127 - 4d3ca062 - 0.06ms - 48672.78ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 11:35:24,141 - 4d3ca062 - 13.95ms - 48686.73ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.5714285714285715, 'rouge2_f1': 0.4210526315789473, 'rougeL_f1': 0.5714285714285715, 'bleu': 0.21923515613839364, 'key_point_coverage': 1.0}
+2025-04-29 11:35:24,141 - 4d3ca062 - 0.10ms - 48686.83ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.5714285714285715, 'rouge2_f1': 0.4210526315789473, 'rougeL_f1': 0.5714285714285715, 'bleu': 0.21923515613839364, 'key_point_coverage': 1.0}
+2025-04-29 11:35:24,141 - 4d3ca062 - 0.14ms - 48686.99ms - agent_test.crew_performance - DEBUG - Evaluating response with metrics: {'rouge1_f1': 0.5714285714285715, 'rouge2_f1': 0.4210526315789473, 'rougeL_f1': 0.5714285714285715, 'bleu': 0.21923515613839364, 'key_point_coverage': 1.0} against thresholds: {'rouge1_f1': 0.2, 'rouge2_f1': 0.1, 'rougeL_f1': 0.2, 'bleu': 0.05, 'key_point_coverage': 0.6}
+2025-04-29 11:35:24,141 - 4d3ca062 - 0.05ms - 48687.04ms - agent_test.crew_performance - INFO - Response quality meets thresholds
+2025-04-29 11:35:24,142 - 4d3ca062 - 0.08ms - 48687.14ms - agent_test.crew_performance - INFO - Processing query: What are the common evaluation metrics mentioned in the document?
+2025-04-29 11:35:24,142 - 4d3ca062 - 0.07ms - 48687.23ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:36:03,415 - 4d3ca062 - 39273.64ms - 87960.89ms - agent_test.crew_performance - INFO - Generated response: The document discusses metrics such as Accuracy, AUC, F1 Score, MSE, Precision, Recall, and Kappa Score.
+2025-04-29 11:36:03,415 - 4d3ca062 - 0.09ms - 87961.03ms - agent_test.crew_performance - INFO - Reference answer: The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).
+2025-04-29 11:36:03,416 - 4d3ca062 - 0.05ms - 87961.10ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 11:36:03,416 - 4d3ca062 - 0.54ms - 87961.63ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.31999999999999995, 'rouge2_f1': 0.041666666666666664, 'rougeL_f1': 0.28, 'bleu': 0.01007179610824556, 'key_point_coverage': 1.0}
+2025-04-29 11:36:03,416 - 4d3ca062 - 0.04ms - 87961.67ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.31999999999999995, 'rouge2_f1': 0.041666666666666664, 'rougeL_f1': 0.28, 'bleu': 0.01007179610824556, 'key_point_coverage': 1.0}
+2025-04-29 11:36:03,416 - 4d3ca062 - 0.07ms - 87961.76ms - agent_test.crew_performance - DEBUG - Evaluating response with metrics: {'rouge1_f1': 0.31999999999999995, 'rouge2_f1': 0.041666666666666664, 'rougeL_f1': 0.28, 'bleu': 0.01007179610824556, 'key_point_coverage': 1.0} against thresholds: {'rouge1_f1': 0.2, 'rouge2_f1': 0.1, 'rougeL_f1': 0.2, 'bleu': 0.05, 'key_point_coverage': 0.6}
+2025-04-29 11:36:03,416 - 4d3ca062 - 0.04ms - 87961.79ms - agent_test.crew_performance - ERROR - Response quality below thresholds:
+Question: What are the common evaluation metrics mentioned in the document?
+Generated: The document discusses metrics such as Accuracy, AUC, F1 Score, MSE, Precision, Recall, and Kappa Score.
+Reference: The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).
+Metrics: {'rouge1_f1': 0.31999999999999995, 'rouge2_f1': 0.041666666666666664, 'rougeL_f1': 0.28, 'bleu': 0.01007179610824556, 'key_point_coverage': 1.0}
+2025-04-29 11:36:03,425 - 4d3ca062 - 0.19ms - 0.19ms - agent_test.crew_performance - INFO - Starting new test run with ID: 2996349a
+2025-04-29 11:36:03,425 - 4d3ca062 - 0.33ms - 0.65ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 11:36:03,434 - 4d3ca062 - 8.98ms - 9.73ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 11:36:03,436 - 4d3ca062 - 0.07ms - 0.07ms - agent_test.crew_performance - INFO - Starting new test run with ID: f2027e15
+2025-04-29 11:36:03,437 - 4d3ca062 - 0.29ms - 0.55ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 11:36:03,437 - 4d3ca062 - 0.37ms - 1.05ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 11:36:03,437 - 4d3ca062 - 0.08ms - 1.28ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 11:36:03,437 - 4d3ca062 - 0.03ms - 1.36ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 11:36:03,439 - 4d3ca062 - 0.07ms - 0.07ms - agent_test.crew_performance - INFO - Starting new test run with ID: 481e79bb
+2025-04-29 11:36:03,440 - 4d3ca062 - 0.31ms - 0.59ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 11:36:03,440 - 4d3ca062 - 0.14ms - 0.95ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 11:36:03,449 - 4d3ca062 - 8.93ms - 10.11ms - agent_test.crew_performance - WARNING - Expected FileNotFoundError but got different exception: Exception: Failed to read any documents
+2025-04-29 11:36:03,458 - 4d3ca062 - 0.06ms - 0.06ms - agent_test.crew_performance - INFO - Starting new test run with ID: 40a005fe
+2025-04-29 11:36:03,458 - 4d3ca062 - 0.16ms - 0.43ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:36:03,459 - 4d3ca062 - 0.61ms - 1.23ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:36:03,459 - 4d3ca062 - 0.04ms - 1.44ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:36:03,459 - 4d3ca062 - 0.04ms - 1.64ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:36:03,460 - 4d3ca062 - 0.05ms - 1.88ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:36:03,460 - 4d3ca062 - 0.04ms - 2.09ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:36:03,460 - 4d3ca062 - 0.04ms - 2.28ms - agent_test.crew_performance - INFO - Agent configuration validation passed

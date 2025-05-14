@@ -1,0 +1,59 @@
+2025-04-29 12:05:19,645 - b5372327 - 0.14ms - 0.14ms - agent_test.crew_performance - INFO - Starting new test run with ID: b5372327
+2025-04-29 12:05:19,645 - b5372327 - 0.47ms - 0.66ms - agent_test.crew_performance - INFO - Processing query: What are the three types of machine learning algorithms?
+2025-04-29 12:05:19,645 - b5372327 - 0.07ms - 0.76ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:05:38,347 - b5372327 - 18701.17ms - 18701.94ms - agent_test.crew_performance - INFO - Generated response: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 12:05:38,347 - b5372327 - 0.18ms - 18702.19ms - agent_test.crew_performance - INFO - Reference answer: The three types of machine learning algorithms are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+2025-04-29 12:05:38,347 - b5372327 - 0.07ms - 18702.28ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 12:05:38,356 - b5372327 - 9.25ms - 18711.53ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 1.0, 'rouge2_f1': 1.0, 'rougeL_f1': 1.0, 'bleu': 1.0, 'key_point_coverage': 1.0}
+2025-04-29 12:05:38,356 - b5372327 - 0.07ms - 18711.60ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 1.0, 'rouge2_f1': 1.0, 'rougeL_f1': 1.0, 'bleu': 1.0, 'key_point_coverage': 1.0}
+2025-04-29 12:05:38,356 - b5372327 - 0.07ms - 18711.69ms - agent_test.crew_performance - INFO - Processing query: What are the common evaluation metrics mentioned in the document?
+2025-04-29 12:05:38,356 - b5372327 - 0.05ms - 18711.76ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:06:15,466 - b5372327 - 37109.25ms - 55821.02ms - agent_test.crew_performance - INFO - Generated response: Agent stopped due to iteration limit or time limit.
+2025-04-29 12:06:15,466 - b5372327 - 0.13ms - 55821.21ms - agent_test.crew_performance - INFO - Reference answer: The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).
+2025-04-29 12:06:15,466 - b5372327 - 0.07ms - 55821.31ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 12:06:15,467 - b5372327 - 0.64ms - 55821.95ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0.0002591174407075416, 'key_point_coverage': 0.0}
+2025-04-29 12:06:15,467 - b5372327 - 0.05ms - 55822.00ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0.0002591174407075416, 'key_point_coverage': 0.0}
+2025-04-29 12:06:15,467 - b5372327 - 0.07ms - 55822.09ms - agent_test.crew_performance - WARNING - Response quality below thresholds but continuing test run
+2025-04-29 12:06:15,467 - b5372327 - 0.07ms - 55822.17ms - agent_test.crew_performance - WARNING - Question: What are the common evaluation metrics mentioned in the document?
+2025-04-29 12:06:15,467 - b5372327 - 0.06ms - 55822.24ms - agent_test.crew_performance - WARNING - Generated: Agent stopped due to iteration limit or time limit.
+2025-04-29 12:06:15,467 - b5372327 - 0.06ms - 55822.31ms - agent_test.crew_performance - WARNING - Reference: The common evaluation metrics mentioned are Accuracy (percentage of correct predictions), Precision (True positives / (True positives + False positives)), Recall (True positives / (True positives + False negatives)), and F1 Score (Harmonic mean of precision and recall).
+2025-04-29 12:06:15,467 - b5372327 - 0.20ms - 55822.53ms - agent_test.crew_performance - WARNING - Metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0.0002591174407075416, 'key_point_coverage': 0.0}
+2025-04-29 12:06:15,467 - b5372327 - 0.09ms - 55822.68ms - agent_test.crew_performance - INFO - Processing query: What are the best practices for implementation?
+2025-04-29 12:06:15,467 - b5372327 - 0.07ms - 55822.76ms - agent_test.crew_performance - INFO - Using document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:09:49,907 - b5372327 - 214439.39ms - 270262.17ms - agent_test.crew_performance - INFO - Generated response: Agent stopped due to iteration limit or time limit.
+2025-04-29 12:09:49,908 - b5372327 - 0.96ms - 270263.20ms - agent_test.crew_performance - INFO - Reference answer: The best practices for implementation are: 1. Data preprocessing 2. Feature selection 3. Model validation 4. Hyperparameter tuning 5. Regular model updates
+2025-04-29 12:09:49,908 - b5372327 - 0.09ms - 270263.33ms - agent_test.crew_performance - DEBUG - Calculating evaluation metrics
+2025-04-29 12:09:49,909 - b5372327 - 0.85ms - 270264.18ms - agent_test.crew_performance - DEBUG - Calculated metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0, 'key_point_coverage': 0.0}
+2025-04-29 12:09:49,909 - b5372327 - 0.05ms - 270264.22ms - agent_test.crew_performance - INFO - Evaluation metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0, 'key_point_coverage': 0.0}
+2025-04-29 12:09:49,909 - b5372327 - 0.08ms - 270264.32ms - agent_test.crew_performance - WARNING - Response quality below thresholds but continuing test run
+2025-04-29 12:09:49,909 - b5372327 - 0.06ms - 270264.39ms - agent_test.crew_performance - WARNING - Question: What are the best practices for implementation?
+2025-04-29 12:09:49,909 - b5372327 - 0.05ms - 270264.46ms - agent_test.crew_performance - WARNING - Generated: Agent stopped due to iteration limit or time limit.
+2025-04-29 12:09:49,909 - b5372327 - 0.05ms - 270264.52ms - agent_test.crew_performance - WARNING - Reference: The best practices for implementation are: 1. Data preprocessing 2. Feature selection 3. Model validation 4. Hyperparameter tuning 5. Regular model updates
+2025-04-29 12:09:49,909 - b5372327 - 0.07ms - 270264.61ms - agent_test.crew_performance - WARNING - Metrics: {'rouge1_f1': 0.0, 'rouge2_f1': 0.0, 'rougeL_f1': 0.0, 'bleu': 0, 'key_point_coverage': 0.0}
+2025-04-29 12:09:49,909 - b5372327 - 0.10ms - 270264.73ms - agent_test.crew_performance - INFO - Validating log phases
+2025-04-29 12:09:49,910 - b5372327 - 0.16ms - 270264.91ms - agent_test.crew_performance - WARNING - Total run time exceeded threshold: 270264.24ms > 10000ms
+2025-04-29 12:09:49,912 - b5372327 - 0.14ms - 0.14ms - agent_test.crew_performance - INFO - Starting new test run with ID: 3987bfa7
+2025-04-29 12:09:49,913 - b5372327 - 0.27ms - 0.51ms - agent_test.crew_performance - INFO - Checking Ollama server health
+2025-04-29 12:09:49,923 - b5372327 - 9.69ms - 10.28ms - agent_test.crew_performance - INFO - Ollama server is healthy
+2025-04-29 12:09:49,924 - b5372327 - 0.07ms - 0.07ms - agent_test.crew_performance - INFO - Starting new test run with ID: 18c584f3
+2025-04-29 12:09:49,925 - b5372327 - 0.28ms - 0.52ms - agent_test.crew_performance - INFO - Reading document: /Users/sreeramyashasviv/projects/MISC./AGENTIC-PLAYGROUND/document-query-app/backend/tests/data/sample1.txt
+2025-04-29 12:09:49,925 - b5372327 - 0.59ms - 1.29ms - agent_test.crew_performance - INFO - Successfully read document (1117 characters)
+2025-04-29 12:09:49,926 - b5372327 - 0.06ms - 1.48ms - agent_test.crew_performance - DEBUG - Document content: Title: Machine Learning Algorithms
+
+Machine learning algorithms are computational methods that enable computers to learn from data without being explicitly programmed. These algorithms can be broadly ...
+2025-04-29 12:09:49,926 - b5372327 - 0.03ms - 1.54ms - agent_test.crew_performance - INFO - Document content validation passed
+2025-04-29 12:09:49,927 - b5372327 - 0.06ms - 0.06ms - agent_test.crew_performance - INFO - Starting new test run with ID: 5897981e
+2025-04-29 12:09:49,927 - b5372327 - 0.21ms - 0.45ms - agent_test.crew_performance - INFO - Testing error handling scenarios
+2025-04-29 12:09:49,927 - b5372327 - 0.06ms - 0.68ms - agent_test.crew_performance - INFO - Testing query with non-existent document
+2025-04-29 12:09:49,937 - b5372327 - 9.16ms - 10.00ms - agent_test.crew_performance - INFO - Non-existent document test passed - Exception raised as expected
+2025-04-29 12:09:49,937 - b5372327 - 0.06ms - 10.25ms - agent_test.crew_performance - INFO - Testing empty query
+2025-04-29 12:10:18,781 - b5372327 - 28844.02ms - 28854.44ms - agent_test.crew_performance - ERROR - Expected AssertionError but no exception was raised
+2025-04-29 12:10:18,784 - b5372327 - 2.50ms - 28857.35ms - agent_test.crew_performance - INFO - Empty query test passed - AssertionError raised as expected
+2025-04-29 12:10:18,787 - b5372327 - 0.18ms - 0.18ms - agent_test.crew_performance - INFO - Starting new test run with ID: bcb95092
+2025-04-29 12:10:18,787 - b5372327 - 0.29ms - 0.88ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 12:10:18,789 - b5372327 - 1.12ms - 2.36ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 12:10:18,789 - b5372327 - 0.09ms - 2.80ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 12:10:18,790 - b5372327 - 0.08ms - 3.20ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 12:10:18,790 - b5372327 - 0.09ms - 3.61ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 12:10:18,791 - b5372327 - 0.09ms - 4.04ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 12:10:18,791 - b5372327 - 0.12ms - 4.64ms - agent_test.crew_performance - INFO - Agent configuration validation passed

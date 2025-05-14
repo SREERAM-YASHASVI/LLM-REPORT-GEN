@@ -1,0 +1,285 @@
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f8fa;
+}
+
+.App {
+  min-height: 100vh;
+  background: #f6f8fa;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: #fff;
+  padding: 32px 0 16px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-radius: 0 0 24px 24px;
+  margin-bottom: 32px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #22223b;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 32px 24px 40px 24px;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 32px;
+  border-radius: 18px;
+  background: #f9fafb;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  padding: 24px 20px;
+}
+
+section h2 {
+  font-size: 1.3rem;
+  color: #3a3a4a;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+input[type="file"] {
+  margin-bottom: 12px;
+}
+
+button {
+  background: linear-gradient(90deg, #6c63ff 0%, #48b1f5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(76, 99, 255, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-top: 8px;
+}
+
+button:disabled {
+  background: #d1d5db;
+  color: #888;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: linear-gradient(90deg, #48b1f5 0%, #6c63ff 100%);
+  box-shadow: 0 4px 16px rgba(76, 99, 255, 0.13);
+}
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  background: #fff;
+  resize: vertical;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  transition: border 0.2s;
+}
+
+textarea:focus {
+  border: 1.5px solid #6c63ff;
+  outline: none;
+}
+
+ul {
+  padding-left: 18px;
+  margin: 0 0 8px 0;
+}
+
+li {
+  margin-bottom: 6px;
+  color: #444;
+  font-size: 1rem;
+}
+
+.response-section {
+  background: #f4f7fa;
+  border-radius: 18px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  padding: 24px 20px;
+}
+
+pre {
+  background: #f0f1f6;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  color: #2d2d3a;
+  overflow-x: auto;
+  margin: 0 0 12px 0;
+}
+
+.error-message {
+  color: #e63946;
+  background: #fff0f3;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.thinking-steps {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+.thinking-step {
+  margin-bottom: 8px;
+  padding: 7px 10px;
+  background: #e9eafc;
+  border-radius: 8px;
+  color: #3a3a4a;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 800px) {
+  main {
+    padding: 16px 4px 24px 4px;
+  }
+  section {
+    padding: 14px 6px;
+  }
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.task-item.pending .task-status,
+.task-item.processing .task-status {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.task-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border-radius: 4px;
+  border-left: 4px solid #4CAF50;
+}
+
+.task-result h3 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 1.1em;
+}
+
+.App.dark {
+  background: #181a20;
+}
+.App.dark main {
+  background: #232634;
+  color: #f1f1f1;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+.App.dark .App-header {
+  background: #232634;
+  color: #f1f1f1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.App.dark .App-header h1 {
+  color: #f1f1f1;
+}
+.App.dark section {
+  background: #232634;
+  color: #f1f1f1;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+.App.dark section h2 {
+  color: #e0e0e0;
+}
+.App.dark input[type="file"],
+.App.dark textarea {
+  background: #232634;
+  color: #f1f1f1;
+  border: 1px solid #35384a;
+}
+.App.dark textarea:focus {
+  border: 1.5px solid #6c63ff;
+}
+.App.dark button {
+  background: linear-gradient(90deg, #232634 0%, #35384a 100%);
+  color: #f1f1f1;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.18);
+}
+.App.dark button:disabled {
+  background: #35384a;
+  color: #888;
+}
+.App.dark button:hover:not(:disabled) {
+  background: linear-gradient(90deg, #35384a 0%, #232634 100%);
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.23);
+}
+.App.dark ul {
+  color: #e0e0e0;
+}
+.App.dark li {
+  color: #e0e0e0;
+}
+.App.dark .response-section {
+  background: #232634;
+  color: #f1f1f1;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+.App.dark pre {
+  background: #181a20;
+  color: #e0e0e0;
+}
+.App.dark .error-message {
+  color: #ff6b81;
+  background: #2d1a1e;
+}
+.App.dark .thinking-steps {
+  background-color: #232634;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+.App.dark .thinking-step {
+  background: #2d3146;
+  color: #e0e0e0;
+}

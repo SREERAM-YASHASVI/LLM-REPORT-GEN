@@ -1,0 +1,8 @@
+2025-04-29 11:56:31,454 - ac793db3 - 0.04ms - 0.50ms - agent_test.crew_performance - INFO - Starting new test run with ID: ac793db3
+2025-04-29 11:56:31,455 - ac793db3 - 0.03ms - 1.11ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 11:56:31,456 - ac793db3 - 0.04ms - 2.57ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 11:56:31,457 - ac793db3 - 0.03ms - 2.93ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 11:56:31,457 - ac793db3 - 0.03ms - 3.28ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 11:56:31,457 - ac793db3 - 0.05ms - 3.64ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 11:56:31,458 - ac793db3 - 0.03ms - 3.99ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 11:56:31,458 - ac793db3 - 0.03ms - 4.34ms - agent_test.crew_performance - INFO - Agent configuration validation passed

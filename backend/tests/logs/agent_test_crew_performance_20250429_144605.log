@@ -1,0 +1,8 @@
+2025-04-29 14:46:05,983 - ef899e0e - 0.04ms - 0.54ms - agent_test.crew_performance - INFO - Starting new test run with ID: ef899e0e
+2025-04-29 14:46:05,984 - ef899e0e - 0.04ms - 1.20ms - agent_test.crew_performance - INFO - Testing agent creation and configuration
+2025-04-29 14:46:05,985 - ef899e0e - 0.04ms - 2.62ms - agent_test.crew_performance - INFO - Agents created successfully
+2025-04-29 14:46:05,986 - ef899e0e - 0.04ms - 3.01ms - agent_test.crew_performance - INFO - Analyzer role: Document Analyzer
+2025-04-29 14:46:05,986 - ef899e0e - 0.04ms - 3.40ms - agent_test.crew_performance - INFO - Analyzer goal: Analyze documents thoroughly and extract key information
+2025-04-29 14:46:05,987 - ef899e0e - 0.04ms - 3.78ms - agent_test.crew_performance - INFO - Specialist role: Query Specialist
+2025-04-29 14:46:05,987 - ef899e0e - 0.04ms - 4.16ms - agent_test.crew_performance - INFO - Specialist goal: Process user queries and provide accurate, detailed answers from analyzed documents
+2025-04-29 14:46:05,987 - ef899e0e - 0.04ms - 4.55ms - agent_test.crew_performance - INFO - Agent configuration validation passed
