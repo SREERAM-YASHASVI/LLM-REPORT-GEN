@@ -353,113 +353,113 @@ function App() {
         )}
         {/* Move All Documents section outside the upload section, but still within the toggled area */}
         {showDocs && (
-          <section className="document-list-section" aria-label="All Documents" style={{ marginBottom: 0 }}>
-            <h2>All Documents</h2>
-            {documentsLoading ? (
-              <div style={{ color: '#888' }}>Loading documents...</div>
-            ) : documentsError ? (
-              <div className="error-message">{documentsError}</div>
-            ) : documents.length === 0 ? (
-              <div style={{ color: '#888' }}>No documents found.</div>
-            ) : (
-              <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 16 }}>
-                <thead>
-                  <tr style={{ background: '#f0f1f6' }}>
-                    <th style={{ textAlign: 'left', padding: '6px 8px' }}>Filename</th>
-                    <th style={{ textAlign: 'left', padding: '6px 8px' }}>Upload Date</th>
-                    <th style={{ textAlign: 'left', padding: '6px 8px' }}>File Size</th>
-                    <th style={{ textAlign: 'left', padding: '6px 8px' }}>Tags</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {documents.map((doc) => (
-                    <tr key={doc.id} style={{ borderBottom: '1px solid #eee' }}>
-                      <td style={{ padding: '6px 8px' }}>{doc.filename}</td>
-                      <td style={{ padding: '6px 8px' }}>{doc.uploaded_at ? new Date(doc.uploaded_at).toLocaleString() : '-'}</td>
-                      <td style={{ padding: '6px 8px' }}>{doc.file_size ? `${doc.file_size} bytes` : '-'}</td>
-                      <td style={{ padding: '6px 8px' }}>
-                        {(docTags[doc.id] || []).length === 0 ? (
-                          <span style={{ color: '#aaa' }}>No tags</span>
-                        ) : (
-                          docTags[doc.id].map((tag: any) => (
-                            <span key={tag.id} style={{
-                              display: 'inline-block',
-                              background: tag.color || '#e0e7ff',
-                              color: '#222',
-                              borderRadius: 8,
-                              padding: '2px 8px',
-                              marginRight: 4,
-                              fontSize: 13,
-                              marginBottom: 2
-                            }}>{tag.name}
-                              <button onClick={() => removeTagFromDoc(doc.id, tag.id)} style={{ marginLeft: 4, border: 'none', background: 'none', color: '#e63946', cursor: 'pointer', fontWeight: 'bold' }} title="Remove tag">×</button>
-                            </span>
-                          ))
-                        )}
-                      </td>
-                      <td style={{ padding: '6px 8px' }}>
-                        <button onClick={() => openTagManager(doc.id)} style={{ fontSize: 13 }}>Manage Tags</button>
-                      </td>
+            <section className="document-list-section" aria-label="All Documents" style={{ marginBottom: 0 }}>
+              <h2>All Documents</h2>
+              {documentsLoading ? (
+                <div style={{ color: '#888' }}>Loading documents...</div>
+              ) : documentsError ? (
+                <div className="error-message">{documentsError}</div>
+              ) : documents.length === 0 ? (
+                <div style={{ color: '#888' }}>No documents found.</div>
+              ) : (
+                <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 16 }}>
+                  <thead>
+                    <tr style={{ background: '#f0f1f6' }}>
+                      <th style={{ textAlign: 'left', padding: '6px 8px' }}>Filename</th>
+                      <th style={{ textAlign: 'left', padding: '6px 8px' }}>Upload Date</th>
+                      <th style={{ textAlign: 'left', padding: '6px 8px' }}>File Size</th>
+                      <th style={{ textAlign: 'left', padding: '6px 8px' }}>Tags</th>
+                      <th></th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-            {/* Tag Manager Modal/Popup */}
-            {tagManagerDocId && (
-              <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: 'rgba(0,0,0,0.18)', zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <div style={{ background: '#fff', borderRadius: 12, padding: 24, minWidth: 320, boxShadow: '0 2px 16px rgba(0,0,0,0.13)' }}>
-                  <h3>Manage Tags</h3>
-                  {tagLoading ? <div>Loading...</div> : tagError ? <div className="error-message">{tagError}</div> : (
-                    <>
-                      <div style={{ marginBottom: 10 }}>
-                        <strong>Current Tags:</strong>
-                        <div style={{ marginTop: 6 }}>
-                          {(docTags[tagManagerDocId] || []).length === 0 ? <span style={{ color: '#aaa' }}>No tags</span> : docTags[tagManagerDocId].map((tag: any) => (
-                            <span key={tag.id} style={{
-                              display: 'inline-block',
-                              background: tag.color || '#e0e7ff',
-                              color: '#222',
-                              borderRadius: 8,
-                              padding: '2px 8px',
-                              marginRight: 4,
-                              fontSize: 13,
-                              marginBottom: 2
-                            }}>{tag.name}
-                              <button onClick={() => removeTagFromDoc(tagManagerDocId, tag.id)} style={{ marginLeft: 4, border: 'none', background: 'none', color: '#e63946', cursor: 'pointer', fontWeight: 'bold' }} title="Remove tag">×</button>
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                      <div style={{ marginBottom: 10 }}>
-                        <strong>Add Tag:</strong>
-                        <div style={{ marginTop: 6 }}>
-                          <select onChange={e => addTagToDoc(tagManagerDocId, Number(e.target.value))} value="">
-                            <option value="">Select tag...</option>
-                            {allTags.filter(t => !(docTags[tagManagerDocId] || []).some((dt: any) => dt.id === t.id)).map((tag: any) => (
-                              <option key={tag.id} value={tag.id}>{tag.name}</option>
+                  </thead>
+                  <tbody>
+                    {documents.map((doc) => (
+                      <tr key={doc.id} style={{ borderBottom: '1px solid #eee' }}>
+                        <td style={{ padding: '6px 8px' }}>{doc.filename}</td>
+                        <td style={{ padding: '6px 8px' }}>{doc.uploaded_at ? new Date(doc.uploaded_at).toLocaleString() : '-'}</td>
+                        <td style={{ padding: '6px 8px' }}>{doc.file_size ? `${doc.file_size} bytes` : '-'}</td>
+                        <td style={{ padding: '6px 8px' }}>
+                          {(docTags[doc.id] || []).length === 0 ? (
+                            <span style={{ color: '#aaa' }}>No tags</span>
+                          ) : (
+                            docTags[doc.id].map((tag: any) => (
+                              <span key={tag.id} style={{
+                                display: 'inline-block',
+                                background: tag.color || '#e0e7ff',
+                                color: '#222',
+                                borderRadius: 8,
+                                padding: '2px 8px',
+                                marginRight: 4,
+                                fontSize: 13,
+                                marginBottom: 2
+                              }}>{tag.name}
+                                <button onClick={() => removeTagFromDoc(doc.id, tag.id)} style={{ marginLeft: 4, border: 'none', background: 'none', color: '#e63946', cursor: 'pointer', fontWeight: 'bold' }} title="Remove tag">×</button>
+                              </span>
+                            ))
+                          )}
+                        </td>
+                        <td style={{ padding: '6px 8px' }}>
+                          <button onClick={() => openTagManager(doc.id)} style={{ fontSize: 13 }}>Manage Tags</button>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+              {/* Tag Manager Modal/Popup */}
+              {tagManagerDocId && (
+                <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', background: 'rgba(0,0,0,0.18)', zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <div style={{ background: '#fff', borderRadius: 12, padding: 24, minWidth: 320, boxShadow: '0 2px 16px rgba(0,0,0,0.13)' }}>
+                    <h3>Manage Tags</h3>
+                    {tagLoading ? <div>Loading...</div> : tagError ? <div className="error-message">{tagError}</div> : (
+                      <>
+                        <div style={{ marginBottom: 10 }}>
+                          <strong>Current Tags:</strong>
+                          <div style={{ marginTop: 6 }}>
+                            {(docTags[tagManagerDocId] || []).length === 0 ? <span style={{ color: '#aaa' }}>No tags</span> : docTags[tagManagerDocId].map((tag: any) => (
+                              <span key={tag.id} style={{
+                                display: 'inline-block',
+                                background: tag.color || '#e0e7ff',
+                                color: '#222',
+                                borderRadius: 8,
+                                padding: '2px 8px',
+                                marginRight: 4,
+                                fontSize: 13,
+                                marginBottom: 2
+                              }}>{tag.name}
+                                <button onClick={() => removeTagFromDoc(tagManagerDocId, tag.id)} style={{ marginLeft: 4, border: 'none', background: 'none', color: '#e63946', cursor: 'pointer', fontWeight: 'bold' }} title="Remove tag">×</button>
+                              </span>
                             ))}
-                          </select>
+                          </div>
                         </div>
-                      </div>
-                      <div style={{ marginBottom: 10 }}>
-                        <strong>Create New Tag:</strong>
-                        <div style={{ marginTop: 6 }}>
-                          <input type="text" placeholder="Tag name" value={newTagName} onChange={e => setNewTagName(e.target.value)} style={{ marginRight: 6 }} />
-                          <input type="color" value={newTagColor} onChange={e => setNewTagColor(e.target.value)} style={{ marginRight: 6, verticalAlign: 'middle' }} />
-                          <button onClick={createTag} disabled={tagLoading || !newTagName.trim()}>Create</button>
+                        <div style={{ marginBottom: 10 }}>
+                          <strong>Add Tag:</strong>
+                          <div style={{ marginTop: 6 }}>
+                            <select onChange={e => addTagToDoc(tagManagerDocId, Number(e.target.value))} value="">
+                              <option value="">Select tag...</option>
+                              {allTags.filter(t => !(docTags[tagManagerDocId] || []).some((dt: any) => dt.id === t.id)).map((tag: any) => (
+                                <option key={tag.id} value={tag.id}>{tag.name}</option>
+                              ))}
+                            </select>
+                          </div>
                         </div>
-                      </div>
-                    </>
-                  )}
-                  <div style={{ marginTop: 18, textAlign: 'right' }}>
-                    <button onClick={closeTagManager}>Close</button>
+                        <div style={{ marginBottom: 10 }}>
+                          <strong>Create New Tag:</strong>
+                          <div style={{ marginTop: 6 }}>
+                            <input type="text" placeholder="Tag name" value={newTagName} onChange={e => setNewTagName(e.target.value)} style={{ marginRight: 6 }} />
+                            <input type="color" value={newTagColor} onChange={e => setNewTagColor(e.target.value)} style={{ marginRight: 6, verticalAlign: 'middle' }} />
+                            <button onClick={createTag} disabled={tagLoading || !newTagName.trim()}>Create</button>
+                          </div>
+                        </div>
+                      </>
+                    )}
+                    <div style={{ marginTop: 18, textAlign: 'right' }}>
+                      <button onClick={closeTagManager}>Close</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            )}
-          </section>
+              )}
+            </section>
         )}
 
         {/* Centered Query Section */}
